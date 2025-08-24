@@ -9,7 +9,7 @@ public class App {
         String cpfInput = scanner.nextLine();
 
         /*
-         * 
+         * verifica se a entrada é válida (exatamente 9 dígitos numéricos)
          */
         while (cpfInput.length() != 9) {
             System.out.print("Entrada inválida. Por favor, digite exatamente 9 dígitos numéricos: ");
