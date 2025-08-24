@@ -5,6 +5,9 @@ public class CalculoCPF {
     private int primeiroDigito;
     private int segundoDigito;
 
+    /*
+     * Construtor que inicializa o CPF e os dígitos
+     */
     public CalculoCPF(String cpf) {
         this.cpf = cpf;
         this.digitoCPF = new int[11];

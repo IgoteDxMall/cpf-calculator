@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 import main.CalculoCPF;
 
 public class App {
@@ -9,6 +8,9 @@ public class App {
         System.out.print("Digite os 9 primeiros dígitos do CPF (sem pontos ou traços): ");
         String cpfInput = scanner.nextLine();
 
+        /*
+         * 
+         */
         while (cpfInput.length() != 9) {
             System.out.print("Entrada inválida. Por favor, digite exatamente 9 dígitos numéricos: ");
             cpfInput = scanner.nextLine();
