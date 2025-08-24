@@ -27,7 +27,7 @@ public class CalculoCPF {
         for (int i = 0; i < 9; i++) {
             soma += digitoCPF[i] * (11 - i);
         }
-        soma += primeiroDigito * 2; // inclui o primeiro dígito no cálculo
+        soma += primeiroDigito * 2;
 
         int resto = soma % 11;
         segundoDigito = (resto < 2) ? 0 : 11 - resto;
