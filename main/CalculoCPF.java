@@ -1,3 +1,4 @@
+package main;
 public class CalculoCPF {
     private String cpf;
     private int[] digitoCPF;
